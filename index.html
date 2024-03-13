@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi primera web</title>
+    <link rel="stylesheet" href="styles.css"> <!--Conexión al CSS-->
+    <link rel="icon" type="image/png" href="img/icon.png"> <!--Conexión al ícono-->
+    <script src="https://kit.fontawesome.com/c9b87a4bee.js" crossorigin="anonymous"></script> <!--Link Ícono Menú Responsive-->
+</head>
+<body>
+<div class="container">
+    <!---------------------------Navegador------------------------------>
+    <header id="encabezado">
+        <!--Link que me lleva al inicio al dar clic en el ícono-->
+        <a href="index.html"><img src="img/icon.png" alt="icon"></a>
+
+        <!--Menú de navegación-->
+        <nav>
+            <input type="checkbox" id="check" />
+            <label for="check" class="checkbtn">
+                <i class="fa-solid fa-bars"></i>
+            </label>
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="#title-acerca-de-mi">Acerca de mi</a></li>
+                <li><a href="#title-trabajos">Trabajos</a></li>
+                <li><a href="#title-servicios">Servicios</a></li>
+                <li><a href="#title-contacto">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+    <!--------------------------Acerca de mí----------------------------->
+    <main id="seccion-principal">
+        <!--Sección Acerca de mi-->
+        <section class="seccion-1">
+            <div class="acerca-de-mi">
+                <!--Título Acerca de mí-->
+                <div class="title">
+                    <h2 id="title-acerca-de-mi">Acerca de mí</h2>
+                </div>
+
+                <!--Parrafo 1 Acerca de mí-->
+                <div class="parrafo">
+                    <p>¡Bienvenido a mi página! Aquí, aprenderás más sobre mí.</p>
+                </div>
+
+                <!--Parrafo 2 Acerca de mí-->
+                <div class="parrafo">
+                    <p>Me llamo Manuel, nací en Cartagena y vivo en Tacna. Me gusta la pizza y salir a nadar en el río. Me encantaría aprender a programar para poder ayudar a las personas a mostrar lo que hacen.</p>
+                </div>
+            </div>
+
+            <!--Imágen Acerca de mí-->
+            <div class="imagen-acerca-de-mi">
+                <img src="img/me-picture.jpg" alt="foto de presentación">
+            </div>
+        </section>
+        <!----------------------------Grill------------------------------->
+        <section class="seccion-grill">
+            <div class="grill-acerca-de-mi">
+                <img src="img/grill-picture.jpg" id="imagen-grill" alt="foto de grill">
+            </div>
+        </section>
+        <!---------------------------Trabajos------------------------------>
+        <!--Sección Trabajos-->
+        <section class="seccion-2">
+            <!--Título Trabajos-->
+            <div class="title">
+                <h2 id="title-trabajos">Trabajos</h2>
+            </div>
+
+            <div class="trabajos">
+                <!--Carta 1 Trabajos-->
+                <div class="card">
+                    <div class="trabajos-cards">
+                        <img src="img/imagen-1.jpg" />
+                        <div class="cards-title"><h4>Trabajo 1</h4></div>
+                        <div class="cards-parrafo"><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum quam natus beatae quos atque quod voluptatem excepturi eveniet hic deleniti placeat doloribus blanditiis iusto fugiat, molestias, facilis facere labore qui!</p></div>
+                        <a href="">Leer más</a>
+                    </div> 
+                </div>
+
+                <!--Carta 2 Trabajos-->
+                <div class="card">
+                    <div class="trabajos-cards">
+                        <img src="img/imagen-1.jpg" />
+                        <div class="cards-title"><h4>Trabajo 2</h4></div>
+                        <div class="cards-parrafo"><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum quam natus beatae quos atque quod voluptatem excepturi eveniet hic deleniti placeat doloribus blanditiis iusto fugiat, molestias, facilis facere labore qui!</p></div>
+                        <a href="">Leer más</a>
+                    </div> 
+                </div>
+
+                <!--Carta 3 Trabajos-->
+                <div class="card">
+                    <div class="trabajos-cards">
+                        <img src="img/imagen-1.jpg" />
+                        <div class="cards-title"><h4>Trabajo 3</h4></div>
+                        <div class="cards-parrafo"><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum quam natus beatae quos atque quod voluptatem excepturi eveniet hic deleniti placeat doloribus blanditiis iusto fugiat, molestias, facilis facere labore qui!</p></div>
+                        <a href="">Leer más</a>
+                    </div> 
+                </div>
+            </div>
+        </section>
+        <!---------------------------Servicios------------------------------>
+        <!--Sección Servicios-->
+        <section class="seccion-3">
+            <!--Título Servicios-->
+            <div class="title">
+                <h2 id="title-servicios">Servicios</h2>
+            </div>
+
+            <div class="servicios">    
+                <!--Carta 1 Servicios-->
+                <div class="card">
+                    <div class="servicios-cards">
+                        <img src="img/servicios.png" />
+                        <div class="cards-title"><h4>Servicio 1</h4></div>
+                        <div class="cards-parrafo"><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum quam natus beatae quos atque quod voluptatem excepturi eveniet hic deleniti placeat doloribus blanditiis iusto fugiat, molestias, facilis facere labore qui!</p></div>
+                        <a href="">Leer más</a>
+                    </div>
+                </div>
+            
+                <!--Carta 2 Servicios-->
+                <div class="card">
+                   <div class="servicios-cards">
+                       <img src="img/servicios.png" />
+                       <div class="cards-title"><h4>Servicio 2</h4></div>
+                       <div class="cards-parrafo"><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum quam natus beatae quos atque quod voluptatem excepturi eveniet hic deleniti placeat doloribus blanditiis iusto fugiat, molestias, facilis facere labore qui!</p></div>
+                       <a href="">Leer más</a>
+                   </div>
+                </div>
+           
+                <!--Carta 3 Servicios-->
+                <div class="card">
+                    <div class="servicios-cards">
+                        <img src="img/servicios.png" />
+                        <div class="cards-title"><h4>Servicio 3</h4></div>
+                        <div class="cards-parrafo"><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum quam natus beatae quos atque quod voluptatem excepturi eveniet hic deleniti placeat doloribus blanditiis iusto fugiat, molestias, facilis facere labore qui!</p></div>
+                        <a href="">Leer más</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!------------------------------Footer--------------------------------->
+    <footer id="seccion-final">
+        <!---------------------------Contacto------------------------------>
+        <!--Sección Contacto-->
+        <section class="seccion-4">
+            <!--Título Contacto-->
+            <div class="form-header">
+                <h1>Contacto</h1>
+                <p><em>¡Esperamos tu consulta!</em></p>
+          
+                <form action="" method="get" class="formulario" id="form">
+                    <div class="form-row">
+                        <label for="nombre">Nombre</label>
+                        <input id="nombre" name="nombre" type="text" />
+                    </div>
+        
+                    <div class="form-row">
+                        <label for="email">Email</label>
+                        <input
+                          id="email"
+                          name="email"
+                          type="email"
+                          placeholder="pepe@gmail.com"
+                        />
+                    </div>
+        
+                    <div class="form-row">
+                        <label for="mensaje">Mensaje</label>
+                        <textarea id="mensaje" name="mensaje"></textarea>
+                    </div>
+        
+                    <div class="form-row">
+                        <button>Enviar</button>
+                    </div>
+                    <p class="alertas" id="alertas"></p>
+                </form>
+            </div>
+        </section>
+
+        <!---------------------------Redes Sociales------------------------------>
+        <!--Sección Redes Sociales-->
+        <section class="seccion-5">
+            <div class="redes">
+                <!--Título Redes-->
+                <div class="title">
+                    <h3 id="title-redes">Redes Sociales</h3>
+                </div>
+
+                <!--Redes Sociales-->
+                <div class="lista">
+                    <nav>
+                        <ul>
+                            <li><a href="">Facebook</a></li>
+                            <li><a href="">Instagram</a></li>
+                            <li><a href="">Whatsapp</a></li>
+                        </ul>
+                    </nav>
+                </div>
+
+                <!--Link que me lleva al inicio al dar clic en el ícono-->
+                <a id="inicio-icon" href="index.html"><img src="img/icon.png" alt="icon"></a>
+            </div>
+        </section>
+    </footer>
+</div>
+<script src="script.js"></script> <!--Conexión al JS-->
+</body>
+</html>

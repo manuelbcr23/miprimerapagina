@@ -39,6 +39,13 @@ header nav ul li a{
     color: rgb(255, 255, 255);
 }
 
+/*---------------Greeting---------------*/
+.greeting {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  display: flex;
+  justify-content: center;
+}
+
 /*---------------Acerca de mi---------------*/
 
 .seccion-1 {
